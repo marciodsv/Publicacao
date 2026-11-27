@@ -1,0 +1,100 @@
+{
+  "configVersion": 1,
+  "timestamp": 1795802950317,
+  "index": "/Publicacao/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Publicacao/chunk-HPOEQTT5.js",
+        "/Publicacao/chunk-NC7YD7J6.js",
+        "/Publicacao/chunk-OXSERDL3.js",
+        "/Publicacao/chunk-TE6VTGGY.js",
+        "/Publicacao/chunk-VHL4UX2R.js",
+        "/Publicacao/chunk-YU6RYL6E.js",
+        "/Publicacao/favicon.ico",
+        "/Publicacao/index.html",
+        "/Publicacao/main-F5FYJH7B.js",
+        "/Publicacao/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets-locais",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "imagens-externas-cache",
+      "patterns": [
+        "https:\\/\\/www\\.sescrio\\.org\\.br\\/.*",
+        "https:\\/\\/cdnsesc\\.azureedge\\.net\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 15,
+      "maxAge": 604800000,
+      "timeoutMs": 3000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    },
+    {
+      "name": "dados-texto-api",
+      "patterns": [
+        "https:\\/\\/api\\.seusite\\.com\\.br\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 50,
+      "maxAge": 86400000,
+      "timeoutMs": 2000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/Publicacao/chunk-HPOEQTT5.js": "36f120b91a79050916a86dbff00143fccf365406",
+    "/Publicacao/chunk-NC7YD7J6.js": "0c05b11e44e576b10417de362682293917154bdc",
+    "/Publicacao/chunk-OXSERDL3.js": "a4124d4516e218fa31c2f799720b3770f4b4314f",
+    "/Publicacao/chunk-TE6VTGGY.js": "d10b2ebbb51faccffee372a7e3b31779eea288ff",
+    "/Publicacao/chunk-VHL4UX2R.js": "fdb19e5070674fbd10082707ce5e3c49519cc596",
+    "/Publicacao/chunk-YU6RYL6E.js": "4474053be7e6102fdf568a26ff58714c8d75e9d1",
+    "/Publicacao/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/Publicacao/index.html": "03811ace50cad17013a7608fbcbee9a8c57adf9e",
+    "/Publicacao/main-F5FYJH7B.js": "9926ac30523078a39b5c756cc32732d68781b001",
+    "/Publicacao/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
